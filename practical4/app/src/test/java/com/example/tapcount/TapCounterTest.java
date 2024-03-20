@@ -30,7 +30,7 @@ public class TapCounterTest {
         assertEquals("Taps: 5", tapCounter.getFormattedCount());
     }
 
-    
+
     @Test
     public void whenIncrementedTenTimes_thenOutputIsTaps10() {
         for (int i = 0; i < 10; i++) tapCounter.incrementCount(); // Increment 10 times
